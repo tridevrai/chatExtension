@@ -32,6 +32,24 @@ A powerful Chrome extension that enables AI-powered conversations about any webp
 2. **Configure Extension**: Click the extension icon and enter your API key
 3. **Start Chatting**: Navigate to any webpage and start asking questions!
 
+## Screenshots
+
+### Extension Interface
+![Chat Extension Popup Interface](popup.png)
+*The main extension popup showing the chat interface, API configuration and Extracted content statistics and analysis results*
+
+### Chat in Action
+![Chat with Page Content](chatInAction.png)
+*Example conversation about a webpage showing AI responses*
+
+### Export Functionality
+![Export](downloadContent.png)
+*Downloading content as markdown files*
+
+![Download](downloadChat.png)
+*Downloading conversations as markdown files*
+
+
 ## Usage
 
 1. **Navigate to any webpage** you want to analyze
