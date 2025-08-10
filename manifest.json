@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Chat with Page",
+    "version": "1.0",
+    "description": "AI-powered conversations about webpage content. Ask questions, get intelligent responses, and download comprehensive content analysis.",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "storage",
+      "tabs"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Chat with Page - AI Content Analysis"
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "author": "Tridev Rai",
+    "homepage_url": "https://github.com/tridevrai/chatExtension"
+  }
